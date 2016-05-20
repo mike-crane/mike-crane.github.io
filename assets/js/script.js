@@ -1,8 +1,10 @@
 $(document).ready(function () {
 
+/*=============== NAV SCROLL ===============*/
 
+/* Code modified from smooth-scrolling example obtained from https://css-tricks.com/snippets/jquery/smooth-scrolling*/
     $('a[href*="#"]:not([href="#"])').click(function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
@@ -15,6 +17,7 @@ $(document).ready(function () {
     });
 
 
+/*========== PROJECT HOVER EFFECT ==========*/
 
     $('.project1').mouseenter(function () {
         $(this).stop().fadeTo('slow', 0.4);
@@ -35,6 +38,8 @@ $(document).ready(function () {
     });
 
 
+    
+/*========= PROJECT PAGE REDIRECTS =========*/
 
     $(".project1").click(function () {
         window.location = "https://github.com/foodstream";
@@ -48,4 +53,6 @@ $(document).ready(function () {
         window.location = "https://github.com/mike-crane/responsive-icon-grid";
     });
 
+            
 });
+    

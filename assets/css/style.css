@@ -246,9 +246,7 @@ section.hero.segment-C {
         padding: 10px 0 25px 0;
     }
     #about,
-    #projects,
-    #resume,
-    #contact {
+    #projects {
         padding: 20px 0 20px 0;
         font-size: 30px;
     }
@@ -291,11 +289,8 @@ section.hero.segment-C {
         font-size: 65px;
         line-height: 85px;
     }
-    #about, #projects, #resume, #contact {
     #about,
-    #projects,
-    #resume,
-    #contact {
+    #projects {
         padding: 30px 0 30px 0;
     }
     .hero-text {
