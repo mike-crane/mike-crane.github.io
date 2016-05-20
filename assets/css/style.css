@@ -16,34 +16,36 @@
     box-shadow: 1px 0px 2px #000;
 }
 
-.header a{
-	letter-spacing: 1px;
-	color: #284B63;
-	display: block;
-	float: left;
+.header a {
+    letter-spacing: 1px;
+    color: #284B63;
+    display: block;
+    float: left;
 }
 
-.header a:hover{
-	color: #fff;
+.header a:hover {
+    color: #fff;
 }
 
-.header span.social-icons{
-	float: right;
+.header span.social-icons {
+    float: right;
 }
 
-.header span.social-icons a{
-	float: none;
-	display: inline;
+.header span.social-icons a {
+    float: none;
+    display: inline;
 }
 
 .header strong {
-	font-size: 45px;
+    font-size: 45px;
     font-weight: 600;
 }
 
 .fa {
     margin-top: -10px;
 }
+
+
 
 /* ============================================================
   NAV
@@ -54,84 +56,90 @@
     margin: 0;
 }
 
-.nav li a{
+.nav li a {
     width: 100%;
     max-width: 700px;
     font-size: 45px;
     font-weight: 500;
-	color: transparent;
-	display: block;
-	text-shadow: 0px 0px 1px #b4b4b4;
-	letter-spacing: 2px;
+    color: transparent;
+    display: block;
+    text-shadow: 0px 0px 1px #b4b4b4;
+    letter-spacing: 2px;
     line-height: 60px;
     margin: 0 0 0 160px;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
-.nav:hover li a{
-	text-shadow: 0px 0px 0.7px #fff;
+.nav:hover li a {
+    text-shadow: 0px 0px 0.7px #fff;
 }
 
-.nav li a:hover{
-	color: #EF8354;
+.nav li a:hover {
+    color: #EF8354;
     text-shadow: 0px 0px 4px #EF8354;
-	padding-left: 8px;
+    padding-left: 8px;
 }
+
+
 
 /* ============================================================
 MAIN CONTENT
 ============================================================ */
 
 body {
-  background-color: #b4b4b4;
-  color: #284B63;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
+    background-color: #b4b4b4;
+    color: #284B63;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
-ol, ul {
-  list-style: none;
+ol,
+ul {
+    list-style: none;
 }
 
 .wrapper {
-  width: 100%;
-  margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 main {
-  display: block;
-  background-color: #E5E5E5;
+    display: block;
+    background-color: #E5E5E5;
 }
 
 .container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .about-container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 30px 0 0 0;
-  text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+    text-align: center;
 }
 
 .project-container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px 0 0 0;
-  text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    text-align: center;
 }
 
-#about, #projects, #resume, #contact {
+#about,
+#projects,
+#resume,
+#contact {
     text-align: center;
     margin: 0;
     padding: 50px 0 50px 0;
@@ -139,43 +147,45 @@ main {
 }
 
 a {
-  text-decoration: none;
-  color: #b4b4b4;
+    text-decoration: none;
+    color: #b4b4b4;
 }
 
 a:hover {
-  color: #818181;
+    color: #818181;
 }
+
+
 
 /* ============================================================
   SEGMENTS
 ============================================================ */
 
 section.hero h2 {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 section.hero.segment {
-  background-attachment: fixed;
-  background-position: 50% 50%;
-  height: 600px;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    height: 600px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .hero-text {
-  color: #fff;
-  width: 70%;
-  font-size: 30px;
-  font-weight: 100;
-  padding: 5% 0;
-  line-height: 40px;
-  left:50%;
-  margin: 0 0 0 15%;
-  text-align: center;
+    color: #fff;
+    width: 70%;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 5% 0;
+    line-height: 40px;
+    left: 50%;
+    margin: 0 0 0 15%;
+    text-align: center;
 }
 
 .profile-pic {
@@ -187,50 +197,58 @@ section.hero.segment {
     display: inline-block;
 }
 
-.project1, .project2, .project3 {
+.project1,
+.project2,
+.project3 {
     display: inline-block;
     width: 30%;
     cursor: pointer;
 }
 
 section.hero.segment-A {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url("../images/3.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/3.png");
 }
 
 section.hero.segment-B {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-  url("../images/4.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../images/4.png");
 }
 
 section.hero.segment-C {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-  url("../images/1.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../images/1.png");
 }
 
 
+
+/* ============================================================
+  MEDIA QUERIES
+============================================================ */
+
 @media only screen and (max-width: 450px) {
     section.hero.segment {
-      background-position: 65% 35%;
+        background-position: 65% 35%;
     }
-    .header, .header strong {
+    .header,
+    .header strong {
         font-size: 20px;
         line-height: 20px;
     }
-    .header span.social-icons{
-    	margin-right: 10px;
+    .header span.social-icons {
+        margin-right: 10px;
     }
     .header a {
         margin-left: 10px;
     }
-    .nav li a{
+    .nav li a {
         margin: 0 0 0 50px;
         font-size: 35px;
     }
     .header {
         padding: 10px 0 25px 0;
     }
-    #about, #projects, #resume, #contact {
+    #about,
+    #projects,
+    #resume,
+    #contact {
         padding: 20px 0 20px 0;
         font-size: 30px;
     }
@@ -240,12 +258,14 @@ section.hero.segment-C {
         line-height: 25px;
         margin: 0 0 0 5%;
     }
-    .project1, .project2, .project3 {
+    .project1,
+    .project2,
+    .project3 {
         display: block;
         width: 50%;
     }
     .project-container {
-      margin-left: 25%;
+        margin-left: 25%;
     }
     section.hero.segment-C .hero-text {
         display: none;
@@ -256,21 +276,26 @@ section.hero.segment-C {
     section.hero.segment {
         height: 900px;
     }
-    .header, .header strong {
+    .header,
+    .header strong {
         font-size: 40px;
     }
-    .header span.social-icons{
-    	margin-right: 15px;
+    .header span.social-icons {
+        margin-right: 15px;
     }
     .header a {
         margin-left: 15px;
     }
-    .nav li a{
+    .nav li a {
         margin: 0 0 0 100px;
         font-size: 65px;
         line-height: 85px;
     }
     #about, #projects, #resume, #contact {
+    #about,
+    #projects,
+    #resume,
+    #contact {
         padding: 30px 0 30px 0;
     }
     .hero-text {
@@ -279,39 +304,47 @@ section.hero.segment-C {
         line-height: 50px;
         margin: 0 0 0 5%;
     }
-    .project1, .project2, .project3 {
+    .project1,
+    .project2,
+    .project3 {
         display: block;
         width: 40%;
     }
     .project-container {
-      margin-left: 30%;
+        margin-left: 30%;
     }
     section.hero.segment-C .hero-text {
         display: none;
     }
 }
+
 @media only screen and (min-width: 800px) {
     section.hero.segment {
         height: 600px;
     }
-    .project1, .project2, .project3 {
+    .project1,
+    .project2,
+    .project3 {
         display: inline-block;
         width: 30%;
     }
     .project-container {
-      margin: 0 auto;
+        margin: 0 auto;
     }
-    #about, #projects, #resume, #contact {
+    #about,
+    #projects,
+    #resume,
+    #contact {
         padding: 50px 0 50px 0;
         font-size: 60px;
     }
     .hero-text {
-      width: 70%;
-      font-size: 30px;
-      line-height: 40px;
-      margin: 0 0 0 15%;
+        width: 70%;
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0 0 0 15%;
     }
     section.hero.segment-C .hero-text {
-        display:block;
+        display: block;
     }
 }
