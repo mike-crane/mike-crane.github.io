@@ -596,10 +596,10 @@ and (max-width : 500px) {
       font-size: 65%;
     }
     #header-title:before {
-      left: -885%;
+      left: -892%;
     }
     #header-title:after {
-      right: -885%;
+      right: -892%;
     }
     .fa-github {
       right: 2px;
