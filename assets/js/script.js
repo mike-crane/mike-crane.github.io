@@ -1,58 +1,70 @@
 $(document).ready(function () {
 
-/*=============== NAV SCROLL ===============*/
+/*========= LANDING ANIMATION =========*/
+    var i = 1;
+    var go = setInterval(function () {
 
-/* Code modified from smooth-scrolling example obtained from https://css-tricks.com/snippets/jquery/smooth-scrolling*/
-    $('a[href*="#"]:not([href="#"])').click(function () {
-        if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html, body').animate({
-                    scrollTop: target.offset().top
-                }, 1500);
-                return false;
+        $('#slide-' + i).show('slide', {
+            direction: 'left'
+        }, 100);
+
+        i++;
+
+    }, 1000)
+
+
+/*========= HEADER HIDE-ON-SCROLL =========*/
+
+    $(function () {
+        $(window).scroll(function () {
+            var winTop = $(window).scrollTop();
+            if (winTop >= 30) {
+                $("body").addClass("sticky-header");
+            } else {
+                $("body").removeClass("sticky-header");
             }
+        });
+    });
+
+
+/*=============== NAV SMOOTH SCROLL ===============*/
+
+    $('a[href^="#"]').on('click', function (event) {
+
+        var target = $($(this).attr('href'));
+
+        if (target.length) {
+
+            event.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 600);
         }
     });
 
 
 /*========== PROJECT HOVER EFFECT ==========*/
 
-    $('.project1').mouseenter(function () {
-        $(this).stop().fadeTo('slow', 0.4);
-    }).mouseleave(function () {
-        $(this).stop().fadeTo('slow', 1);
-    });
+    $(".hover").mouseleave(
+        function () {
+            $(this).removeClass("hover");
+        }
+    );
 
-    $('.project2').mouseenter(function () {
-        $(this).stop().fadeTo('slow', 0.4);
-    }).mouseleave(function () {
-        $(this).stop().fadeTo('slow', 1);
-    });
-
-    $('.project3').mouseenter(function () {
-        $(this).stop().fadeTo('slow', 0.4);
-    }).mouseleave(function () {
-        $(this).stop().fadeTo('slow', 1);
-    });
-
-
-    
 /*========= PROJECT PAGE REDIRECTS =========*/
 
-    $(".project1").click(function () {
-        window.location = "https://github.com/foodstream";
+    $(".left-box").click(function () {
+        window.location = "https://github.com/mike-crane/";
     });
 
-    $(".project2").click(function () {
-        window.location = "https://github.com/mike-crane/memory-layout";
+    $(".center-box").click(function () {
+        window.location = "https://www.foodstre.am";
     });
 
-    $(".project3").click(function () {
-        window.location = "https://github.com/mike-crane/responsive-icon-grid";
+
+    $(".right-box").click(function () {
+        window.location = "https://github.com/mike-crane/";
     });
 
-            
 });
-    
