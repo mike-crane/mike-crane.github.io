@@ -1,8 +1,8 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
-/*========= LANDING ANIMATION =========*/
+    /*========= LANDING ANIMATION =========*/
     var i = 1;
-    var go = setInterval(function () {
+    var go = setInterval(function() {
 
         $('#slide-' + i).show('slide', {
             direction: 'left'
@@ -13,10 +13,10 @@ $(document).ready(function () {
     }, 1000)
 
 
-/*========= HEADER HIDE-ON-SCROLL =========*/
+    /*========= HEADER HIDE-ON-SCROLL =========*/
 
-    $(function () {
-        $(window).scroll(function () {
+    $(function() {
+        $(window).scroll(function() {
             var winTop = $(window).scrollTop();
             if (winTop >= 30) {
                 $("body").addClass("sticky-header");
@@ -27,9 +27,9 @@ $(document).ready(function () {
     });
 
 
-/*=============== NAV SMOOTH SCROLL ===============*/
+    /*=============== NAV SMOOTH SCROLL ===============*/
 
-    $('a[href^="#"]').on('click', function (event) {
+    $('a[href^="#"]').on('click', function(event) {
 
         var target = $($(this).attr('href'));
 
@@ -44,27 +44,27 @@ $(document).ready(function () {
     });
 
 
-/*========== PROJECT HOVER EFFECT ==========*/
+    /*========== PROJECT HOVER EFFECT ==========*/
 
     $(".hover").mouseleave(
-        function () {
+        function() {
             $(this).removeClass("hover");
         }
     );
 
-/*========= PROJECT PAGE REDIRECTS =========*/
+    /*========= PROJECT PAGE REDIRECTS =========*/
 
-    $(".left-box").click(function () {
-        window.location = "https://github.com/mike-crane/";
+    $(".left-box").click(function() {
+        window.location = "https://mike-crane.github.io/TIY-Chessboard";
     });
 
-    $(".center-box").click(function () {
+    $(".center-box").click(function() {
         window.location = "https://www.foodstre.am";
     });
 
 
-    $(".right-box").click(function () {
-        window.location = "https://github.com/mike-crane/";
+    $(".right-box").click(function() {
+        window.location = "https://mike-crane.github.io/responsive-icon-grid/";
     });
 
 });
