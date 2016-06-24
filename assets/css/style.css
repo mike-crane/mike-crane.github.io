@@ -241,12 +241,12 @@ height: auto;
 #cover li {
 font-family: Condiment;
 display: none;
-font-size: 7em;
+font-size: 6em;
 text-align-last: left;
 }
 #slide-1 {
 padding: 55px 0 0 0;
-color: #284B63;
+color: #fff;
 margin-left: 24%;
 }
 #slide-2 {
@@ -256,7 +256,7 @@ margin-left: 29%;
 }
 #slide-3 {
 padding: 0;
-color: #AD694C;
+color: #fff;
 margin-left: 38%;
 }
 /*=============================================*/
@@ -320,6 +320,10 @@ font-size: 45px;
 color: #FFF;
 font-weight: 700;
 padding: 30px 0;
+}
+section.hero.segment-A {
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../images/coffeebeans.jpg");
+height: 650px;
 }
 section.hero.segment-B {
 background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("../images/10.png");
