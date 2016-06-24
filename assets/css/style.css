@@ -305,7 +305,7 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 .hero-text {
-color: #175C77;
+color: #FFF;
 width: 70%;
 font-size: 30px;
 font-weight: 700;
@@ -317,7 +317,7 @@ text-align: center;
 }
 .subheader-text {
 font-size: 45px;
-color: #175C77;
+color: #FFF;
 font-weight: 700;
 padding: 30px 0;
 }
@@ -419,7 +419,7 @@ opacity: 1;
 div.projectz .icons a:hover {
 opacity: 1;
 cursor: pointer;
-color: #5E5E5E;
+color: #D3D3D3;
 }
 div.projectz:hover img,
 div.projectz.hover img {
