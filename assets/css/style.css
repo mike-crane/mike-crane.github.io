@@ -245,19 +245,19 @@ font-size: 6em;
 text-align-last: left;
 }
 #slide-1 {
-padding: 55px 0 0 0;
+padding: 75px 0 0 0;
 color: #fff;
-margin-left: 24%;
+margin-left: 45%;
 }
 #slide-2 {
 padding: 25px 0;
 color: #fff;
-margin-left: 29%;
+margin-left: 50%;
 }
 #slide-3 {
 padding: 0;
 color: #fff;
-margin-left: 38%;
+margin-left: 58%;
 }
 /*=============================================*/
 
@@ -322,7 +322,7 @@ font-weight: 700;
 padding: 30px 0;
 }
 section.hero.segment-A {
-background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../images/coffeebeans.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/wood_floor.jpg");
 height: 650px;
 }
 section.hero.segment-B {
