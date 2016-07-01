@@ -239,25 +239,34 @@ width: 100%;
 height: auto;
 }
 #cover li {
-font-family: Condiment;
+font-family: 'Qwigley', cursive;
 display: none;
-font-size: 6em;
 text-align-last: left;
+font-weight: 700;
 }
 #slide-1 {
-padding: 75px 0 0 0;
-color: #fff;
-margin-left: 45%;
-}
-#slide-2 {
-padding: 25px 0;
-color: #fff;
-margin-left: 50%;
-}
-#slide-3 {
+font-size: 5em;
 padding: 0;
 color: #fff;
-margin-left: 58%;
+margin: 85px 0 0 15%;
+opacity: 0.15;
+float: left;
+}
+#slide-2 {
+font-size: 6.5em;
+padding: 0;
+color: #fff;
+margin: 135px 0 0 5%;
+opacity: 0.15;
+float: left;
+}
+#slide-3 {
+font-size: 8.5em;
+padding: 0;
+color: #fff;
+margin: 200px 0 0 5%;
+opacity: 0.15;
+float: left;
 }
 /*=============================================*/
 
@@ -324,6 +333,7 @@ padding: 30px 0;
 section.hero.segment-A {
 background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/wood_floor.jpg");
 height: 650px;
+padding: 0;
 }
 section.hero.segment-B {
 background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("../images/10.png");
