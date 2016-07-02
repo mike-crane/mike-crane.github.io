@@ -452,10 +452,18 @@ transition: all 0.6s ease;
 div.projectz:hover span .icons,
 div.projectz.hover span .icons {
 opacity: 1;
--webkit-transform: translateY(25%);
-transform: translateY(25%);
+-webkit-transform: translateY(5%);
+transform: translateY(5%);
 -webkit-transition: all 0.6s ease;
 transition: all 0.6s ease;
+}
+.project-github {
+  font-size: 30%;
+  display: inline-block;
+}
+.ion-social-github {
+  display: block;
+  font-size: 65%;
 }
 /* ============== MEDIA QUERIES ============== */
 /* Tablets (portrait) ----------- */
@@ -511,18 +519,22 @@ header {
     top: 15px;
 }
 #cover li {
-    font-size: 4em;
+    /*font-size: 4em;*/
 }
 #slide-1 {
-    padding: 95px 0 0 0;
-    margin-left: 22%;
+font-size: 5em;
+padding: 50px 0 0 0;
+margin: 10px 0 0 10%;
 }
 #slide-2 {
-    padding: 30px 0 40px 0;
-    margin-left: 28%;
+font-size: 5em;
+padding: 20px 0 0 0;
+margin: -40px 0 0 30%;
 }
 #slide-3 {
-    margin-left: 40%;
+font-size: 6em;
+padding: 20px 0 0 0;
+margin: -20px 0 0 60%;
 }
 #about,
 #projects {
@@ -624,12 +636,16 @@ header {
     font-size: 2.5em;
 }
 #slide-1 {
-    padding: 65px 0 0 0;
-    margin-left: 10%;
+padding: 50px 0 0 0;
+margin: 10px 0 0 10%;
 }
 #slide-2 {
-    padding: 20px;
-    margin-left: 16%;
+padding: 20px 0 0 0;
+margin: -30px 0 0 30%;
+}
+#slide-3 {
+padding: 20px 0 0 0;
+margin: -20px 0 0 60%;
 }
 #about,
 #projects {
