@@ -1,16 +1,16 @@
 $(document).ready(function() {
 
     /*========= LANDING ANIMATION =========*/
-    var i = 1;
-    var go = setInterval(function() {
-
-        $('#slide-' + i).show('slide', {
-            direction: 'left'
-        }, 100);
-
-        i++;
-
-    }, 1000)
+    // var i = 1;
+    // var go = setInterval(function() {
+    //
+    //     $('#slide-' + i).show('slide', {
+    //         direction: 'left'
+    //     }, 100);
+    //
+    //     i++;
+    //
+    // }, 1000)
 
 
     /*========= HEADER HIDE-ON-SCROLL =========*/
