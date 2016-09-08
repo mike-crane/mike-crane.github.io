@@ -216,7 +216,6 @@ section {
 }
 #profile-pic {
     width: 175px;
-    opacity: 0.8;
     overflow: hidden;
     box-shadow: 0 0 0 10px hsla(0, 0%, 100%, 0.35);
     border-radius: 50%;
@@ -294,7 +293,7 @@ section.hero.segment {
     font-size: 45px;
     color: #FFF;
     font-weight: 700;
-    padding: 30px 0;
+    padding: 30px 0 40px;
 }
 section.hero.segment-A {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/doodles.jpg");
@@ -311,7 +310,7 @@ section.hero.segment-B {
 section.hero.segment-C {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/projects.jpg");
     background-size: cover;
-    min-height: 900px;
+    min-height: 700px;
 }
 div.projectz {
     position: relative;
