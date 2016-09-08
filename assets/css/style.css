@@ -187,6 +187,16 @@ header {
     right: -870%;
 }
 
+/* ============ STYLING FOR LANDING ============ */
+
+#scroll-icon {
+    padding-top: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* ============ STYLING FOR SECTIONS ============ */
 
 #about-hero {
@@ -291,6 +301,7 @@ section.hero.segment-A {
     background-size: cover;
     min-height: 1000px;
     padding: 0;
+
 }
 section.hero.segment-B {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/puzzle.jpg");
@@ -480,6 +491,7 @@ div.projectz:hover span .icons, div.projectz.hover span .icons {
     .fa {
         top: 15px;
     }
+
     #about, #projects {
         padding: 45px 0 45px 0;
         margin-top: -45px;
@@ -492,6 +504,10 @@ div.projectz:hover span .icons, div.projectz.hover span .icons {
     }
     #profile-pic {
         width: 145px;
+    }
+    #scroll-icon {
+      width: 200px;
+      padding-top: 50%;
     }
     #about-hero {
         padding: 40px 0 0 0;
@@ -571,6 +587,10 @@ div.projectz:hover span .icons, div.projectz.hover span .icons {
     }
     .fa-linkedin {
         right: 47px;
+    }
+    #scroll-icon {
+      width: 150px;
+      padding-top: 65%;
     }
     #about, #projects {
         padding: 35px 0 35px 0;
@@ -664,6 +684,10 @@ div.projectz:hover span .icons, div.projectz.hover span .icons {
     }
     .fa-linkedin {
         right: 35px;
+    }
+    #scroll-icon {
+      width: 100px;
+      padding-top: 70%;
     }
     div.projectz {
         float: none;
