@@ -296,7 +296,7 @@ section.hero.segment {
     padding: 30px 0 40px;
 }
 section.hero.segment-A {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/doodles.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/landing.jpg");
     background-size: cover;
     min-height: 1000px;
     padding: 0;
@@ -308,7 +308,7 @@ section.hero.segment-B {
     min-height: 900px;
 }
 section.hero.segment-C {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/projects.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/doodles.jpg");
     background-size: cover;
     min-height: 700px;
 }
