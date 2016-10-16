@@ -1,0 +1,9 @@
+body {
+    background-color: #76787A;
+}
+
+iframe {
+    width: 70%;
+    margin: 2% 15%;
+    border-style: none;
+}
