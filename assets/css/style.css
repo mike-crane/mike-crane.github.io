@@ -68,6 +68,7 @@ header {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     border-top: 4px #fff solid;
+    z-index: 999;
 }
 .fa-github, .fa-linkedin, .fa-twitter {
     position: absolute;
@@ -249,6 +250,7 @@ section {
     margin: 0 auto;
     padding: 50px 0 0 0;
     text-align: center;
+    min-height: 600px;
 }
 #about, #projects {
     width: 100%;
@@ -289,11 +291,16 @@ section.hero.segment {
     margin: 0;
     text-align: center;
 }
-.subheader-text {
+p.subheader-text {
     font-size: 45px;
     color: #FFF;
     font-weight: 700;
-    padding: 30px 0 40px;
+}
+p.subheader-text-bottom {
+    font-size: 45px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 2em;
 }
 section.hero.segment-A {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/landing.jpg");
@@ -310,7 +317,7 @@ section.hero.segment-B {
 section.hero.segment-C {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/doodles.jpg");
     background-size: cover;
-    min-height: 700px;
+    min-height: 1300px;
 }
 div.projectz {
     position: relative;
@@ -334,6 +341,9 @@ div.projectz {
 .center-box {
     background-color: rgba(148, 148, 148, 0.45);
 }
+.work-box {
+    background-color: rgba(0, 0, 0, 0.45);
+}
 .left-box:hover {
     background-color: rgba(173, 105, 76, 0.95);
     cursor: pointer;
@@ -344,6 +354,10 @@ div.projectz {
 }
 .center-box:hover {
     background-color: rgba(148, 148, 148, 0.95);
+    cursor: pointer;
+}
+.work-box:hover {
+    background-color: rgba(0, 0, 0, 0.75);
     cursor: pointer;
 }
 div.projectz img {
@@ -431,7 +445,7 @@ div.projectz:hover span .icons, div.projectz.hover span .icons {
     transition: all 0.6s ease;
 }
 .project-github {
-    font-size: 30%;
+    font-size: 60%;
     display: inline-block;
 }
 .ion-social-github {
@@ -511,7 +525,10 @@ div.projectz:hover span .icons, div.projectz.hover span .icons {
     #about-hero {
         padding: 40px 0 0 0;
     }
-    .subheader-text {
+    p.subheader-text {
+        font-size: 40px;
+    }
+    p.subheader-text-bottom {
         font-size: 40px;
     }
     div.projectz:hover span h2, div.projectz.hover span h2 {
@@ -528,10 +545,13 @@ div.projectz:hover span .icons, div.projectz.hover span .icons {
         min-height: 700px;
     }
     section.hero.segment-C {
-        min-height: 700px;
+        min-height: 1100px;
     }
     div.projectz .icons a {
         font-size: 200%;
+    }
+    .project-container {
+        min-height: 500px;
     }
 }
 @media screen and (max-width:640px) {
@@ -600,19 +620,22 @@ div.projectz:hover span .icons, div.projectz.hover span .icons {
         line-height: 25px;
     }
     div.projectz:hover span h2, div.projectz.hover span h2 {
-        font-size: 100%;
+        font-size: 150%;
         font-weight: 400;
     }
-    .subheader-text {
+    p.subheader-text {
+        font-size: 30px;
+    }
+    p.subheader-text-bottom {
         font-size: 30px;
     }
     .project-container {
-        padding: 0;
+        padding: 1em;
     }
     div.projectz {
         float: none;
-        margin: 5px 30%;
-        max-width: 40%;
+        margin: 10px 15%;
+        max-width: 70%;
         border: 4px solid #fff;
     }
     section.hero.segment {
@@ -629,6 +652,9 @@ div.projectz:hover span .icons, div.projectz.hover span .icons {
     }
     div.projectz .icons a {
         font-size: 250%;
+    }
+    .project-container {
+        min-height: 400px;
     }
 }
 @media screen and (max-width:450px) {
@@ -690,8 +716,8 @@ div.projectz:hover span .icons, div.projectz.hover span .icons {
     }
     div.projectz {
         float: none;
-        margin: 5px 30%;
-        max-width: 40%;
+        margin: 10px 15%;
+        max-width: 70%;
         border: 4px solid #fff;
     }
     section.hero.segment {

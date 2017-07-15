@@ -54,4 +54,28 @@ $(document).ready(function() {
         window.location = "https://mike-crane.github.io/responsive-icon-grid/";
     });
 
+    $(".work-box.cxd1").click(function() {
+        window.location = "https://www.carchexdeals.com/";
+    });
+
+    $(".work-box.3sv").click(function() {
+        window.location = "http://3s.ventures";
+    });
+
+    $(".work-box.gd").click(function() {
+        window.location = "https://glassdoctor.com/content/repair-broken-glass-window";
+    });
+
+    $(".work-box.cxd2").click(function() {
+        window.location = "https://www.carchexdeals.com/FB-AD/protection_plan_quiz-g/index.html";
+    });
+
+    $(".work-box.cx").click(function() {
+        window.location = "https://www.carchex.com/content/used-car-extended-warranty";
+    });
+
+    $(".work-box.cxd3").click(function() {
+        window.location = "https://www.carchexdeals.com/branded-lp/index.html";
+    });
+
 });
