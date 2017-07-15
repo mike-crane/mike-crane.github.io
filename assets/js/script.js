@@ -46,7 +46,7 @@ $(document).ready(function() {
     });
 
     $(".center-box").click(function() {
-        window.location = "https://www.foodstre.am";
+        window.location = "https://github.com/foodstream";
     });
 
 
