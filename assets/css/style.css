@@ -318,6 +318,7 @@ section.hero.segment-C {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/doodles.jpg");
     background-size: cover;
     min-height: 1300px;
+    height: 100%;
 }
 div.projectz {
     position: relative;
