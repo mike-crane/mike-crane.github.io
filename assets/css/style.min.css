@@ -872,7 +872,7 @@ div.projectz:hover span .icons {
     }
     .hero-text {
         font-size: 30px;
-        padding: 4% 9%;
+        padding: 2% 9%;
         line-height: 40px
     }
     #profile-pic {
@@ -898,7 +898,7 @@ div.projectz:hover span .icons {
         min-height: 650px
     }
     section.hero.segment-B {
-        min-height: 450px
+        min-height: 475px
     }
     section.hero.segment-C {
         min-height: 1100px
@@ -975,7 +975,7 @@ div.projectz:hover span .icons {
         font-size: 40px
     }
     .hero-text {
-        font-size: 20px;
+        font-size: 23px;
         line-height: 25px
     }
     div.projectz.hover span h2,
@@ -1001,7 +1001,7 @@ div.projectz:hover span .icons {
         min-height: 550px
     }
     section.hero.segment-B {
-        min-height: 500px
+        min-height: 375px
     }
     section.hero.segment-C {
         min-height: 600px
