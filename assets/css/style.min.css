@@ -592,7 +592,7 @@ section {
 
 .project-container {
     padding: 50px 0 0;
-    min-height: 600px
+    min-height: 400px
 }
 
 #about,
@@ -907,7 +907,7 @@ div.projectz:hover span .icons {
         font-size: 200%
     }
     .project-container {
-        min-height: 500px
+        min-height: 300px
     }
 }
 
@@ -985,7 +985,7 @@ div.projectz:hover span .icons {
     }
     p.subheader-text,
     p.subheader-text-bottom {
-        font-size: 30px
+        font-size: 30px;
     }
     div.projectz {
         float: none;
