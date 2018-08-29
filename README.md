@@ -1,13 +1,13 @@
-# Portfolio Website
+<h1 align="center">Portfolio Website</h1>
 
-## Mike Crane | Front-End Developer
+<h2 align="center">Mike Crane | Front-End Developer</h2>
 
-Live Preview: [Portfolio Website](http://houseofcrane.com/)
+<p align="center">Live preview: <a href="http://houseofcrane.com/">Portfolio Website</a></p>
+<center><u>Built With</u></center>
+<center>HTML</center>
+<center>CSS</center>
+<center>jQuery</center>
 
-## Built With
-* HTML
-* CSS
-* JavaScript [ES6]
-* jQuery
-
-![login page](images/screenshots/portfolio.png)
+<p align="center">
+<img src="images/screenshots/portfolio.png" width="550" alt="Portfolio Website">
+</p>
