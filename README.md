@@ -1,13 +1,17 @@
-<h1 align="center">Portfolio Website</h1>
+<div align="center">
+  <h1>Portfolio Website</h1>
 
-<h2 align="center">Mike Crane | Front-End Developer</h2>
+  <h2>Mike Crane | Front-End Developer</h2>
 
-<p align="center">Live preview: <a href="http://houseofcrane.com/">Portfolio Website</a></p>
-<center><u>Built With</u></center>
-<center>HTML</center>
-<center>CSS</center>
-<center>jQuery</center>
+  <p>Live preview: <a href="http://houseofcrane.com/">Portfolio Website</a></p>
 
-<p align="center">
-<img src="images/screenshots/portfolio.png" width="550" alt="Portfolio Website">
-</p>
+  <h3>Built With</h3>
+  <p>HTML | CSS | jQuery</p>
+
+  <p>
+  <img src="images/screenshots/portfolio.png" width="550" alt="Portfolio Website">
+  </p>
+</div>
+
+
+
